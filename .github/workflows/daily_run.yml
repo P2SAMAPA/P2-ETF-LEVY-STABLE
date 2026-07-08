@@ -2,7 +2,7 @@ name: Daily Lévy Stable Engine
 
 on:
   schedule:
-    - cron: "30 22 * * 1-6"   # 22:00 UTC Mon–Fri (after US market close)
+    - cron: "30 00 * * 1-6"   # 22:00 UTC Mon–Fri (after US market close)
   workflow_dispatch:
     inputs:
       universe:
